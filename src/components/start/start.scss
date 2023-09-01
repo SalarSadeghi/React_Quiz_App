@@ -1,0 +1,33 @@
+.start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+  .inputName {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .startBtn {
+    width: 150px;
+    margin-left: 75px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: gold;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
